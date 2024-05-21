@@ -48,14 +48,14 @@ nav {
 }
 
 /* Hamburger Menu Styles */
-.hamburger {
+.ham {
     display: none;
     flex-direction: column;
     cursor: pointer;
     width: 50px;
 }
 
-.hamburger span {
+.ham span {
     background: blue;
     border-radius: 2px;
     height: 4px;
@@ -64,15 +64,15 @@ nav {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.hamburger.open span:nth-child(1) {
+.ham.open span:nth-child(1) {
     transform: rotate(45deg) translate(10px, 10px);
 }
 
-.hamburger.open span:nth-child(2) {
+.ham.open span:nth-child(2) {
     opacity: 0;
 }
 
-.hamburger.open span:nth-child(3) {
+.ham.open span:nth-child(3) {
     transform: rotate(-45deg) translate(10px, -10px);
 }
 
@@ -85,7 +85,7 @@ nav {
         height: auto;
         background-color: #79B6E4;
         position: fixed;
-        top: 13%;
+        top: 17%;
 		z-index:-1;
         right: -200px;
         transition: right 0.3s ease;
